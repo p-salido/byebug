@@ -29,7 +29,7 @@ module Byebug
     end
 
     def execute
-      return unless @match[1] || confirm(pr('quit.confirmations.really'))
+      #return unless @match[1] || confirm(pr('quit.confirmations.really'))
 
       processor.interface.autosave
       processor.interface.close
